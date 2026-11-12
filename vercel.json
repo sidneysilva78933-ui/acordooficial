@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api_proxy.php",
+      "destination": "https://acordo.acessovip2.space/api_proxy.php"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
